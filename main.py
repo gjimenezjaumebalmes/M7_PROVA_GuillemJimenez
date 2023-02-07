@@ -31,6 +31,7 @@ def grafica():
     print('Imprimimos la grafica 2: ')
     data = pd.read_csv("data.csv", usecols=['NAME','GROUP','MODULE','ABSENCES'])
     data = data.dropna()
+    plt.plot()
     plt.set_ylabel('Faltes en %')
     plt.set_title('ALUMNAT')
     plt.legend(title='% de faltes DAW2')
