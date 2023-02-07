@@ -35,3 +35,5 @@ def grafica():
     plt.set_title('ALUMNAT')
     plt.legend(title='% de faltes DAW2')
     plt.show()
+
+grafica()
