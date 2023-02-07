@@ -1,5 +1,4 @@
 import matplotlib.pyplot as plt
-import numpy as np
 import pandas as pd
 import exercici_1
 import exercici_2
@@ -27,7 +26,6 @@ def grafica():
     plt.set_title('ALUMNAT')
     plt.legend(title='Guillem Jimenez')
     plt.show()
-
 
 
     print('Imprimimos la grafica 2: ')
